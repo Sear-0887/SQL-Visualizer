@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        // "outFile": "lib/index.js",
+        "module": "ES6",
+        "outDir": "lib",
+        "rootDir": ".",
+        "baseUrl": "src",
+        "lib": [
+            "ES2021",
+            "DOM",
+            "es2015",
+            "es5",
+            "es6",
+        ]
+        
+    },
+    "include": ["src/**/*"],
+    "compileOnSave": true,
+}

@@ -1,0 +1,18 @@
+#exampleTable {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+#exampleTable > thead {
+    background-color: yellow;
+}
+
+#exampleTable > :is(thead, tbody) > tr > :is(th, td) {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+#exampleTable > :is(thead, tbody) > tr > :is(th, td) > span {
+    margin: 10px;
+}
